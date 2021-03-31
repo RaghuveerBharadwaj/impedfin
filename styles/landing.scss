@@ -1,0 +1,30 @@
+.landing {
+  min-height: 100vh;
+  min-width: 100%;
+  position: relative;
+
+  header {
+    position: fixed;
+    min-width: 100%;
+    top: 0;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 4px;
+    font-family: 'Audiowide', cursive;
+    padding: 5px 10px;
+    z-index: 1000;
+
+    .menu-container {
+      max-width: 1040px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      img {
+        height: 40px;
+        cursor: pointer;
+        vertical-align: middle;
+      }
+    }
+  }
+}
