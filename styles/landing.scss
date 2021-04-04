@@ -2,6 +2,7 @@
   min-height: 100vh;
   min-width: 100%;
   position: relative;
+  padding-top: 50px;
 
   header {
     position: fixed;
@@ -12,6 +13,8 @@
     font-family: 'Audiowide', cursive;
     padding: 5px 10px;
     z-index: 1000;
+    background-color: #FFF;
+    color: #ff6735;
 
     .menu-container {
       max-width: 1040px;
@@ -24,6 +27,28 @@
         height: 40px;
         cursor: pointer;
         vertical-align: middle;
+      }
+    }
+  }
+
+  .intraday {
+    padding: 10px;
+    h3 {
+      color: #ff6735;
+      text-align: center;
+      font-size: 1.6rem;
+    }
+    .main {
+      color: #ff6735;
+    }
+    table {
+      width: 100%;
+      td {
+        text-align: center;
+      }
+      th, td {
+        border: 1px solid;
+        padding: 8px 0;
       }
     }
   }

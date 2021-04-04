@@ -1,3 +1,6 @@
 export { Header } from './Header'
 export { NextHead } from './NextHead'
 export { Landing } from './Landing'
+export { Intraday } from './Intraday'
+export { UserDetails } from './UserDetails'
+export { Investments } from './Investments'
